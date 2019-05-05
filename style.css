@@ -1,0 +1,254 @@
+body{
+	margin:0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.header{
+  margin-left:auto; 
+  margin-right: auto;
+  background-color: #0B3157;
+  width: 375pt;
+  height: 40pt;
+}
+.p{
+	width: 375pt;
+	height: 40pt;
+	}
+.month{
+	white-space:nowrap;
+	float: left;
+	color:#FFFFFF;
+	width: 45pt;
+	height:19pt;
+	font-size: 16pt;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	line-height: 19pt;
+	text-transform: uppercase;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	margin-left: 78.5pt;
+	margin-right: 94.5pt;
+	cursor: pointer;
+}
+
+.prev{	
+	float: left;
+	color:#48C1C2;
+	width: 59pt;
+	height:40pt;
+	font-size: 12pt;
+	text-align: left;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 14pt;
+	text-transform: uppercase;
+	margin-left: 16pt;
+	cursor: pointer;
+
+}
+.next{
+	float: right;
+	color:#48C1C2;
+	width: 59pt;
+	height:40pt;
+	font-size: 12pt;
+	text-align: right;
+	line-height: 14pt;
+	text-transform: uppercase;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-right: 16pt;
+	cursor: pointer;
+}
+.p[href=""]{
+	vertical-align: middle;
+}
+.weekdays{
+  		width: 375pt;
+ 		height: 20pt;
+  		margin-left:auto; 
+  		margin-right: auto;
+  		background-color: #0B3157;
+		
+		font-family: montserrat, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+}
+.days>p{
+	color: #FFFFFF;
+	width: 40pt;
+	height: 20pt;
+	margin:0;
+	text-align: center;
+}
+.days>p:last-child{
+	margin-right: 16pt;
+}
+.days>p:first-child{
+	margin-left: 16pt;
+}
+
+.conteiner{
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+
+section{
+	width: 375pt;
+	margin: 0 auto;
+	display: block;
+}
+
+.dayss{
+	display: flex;
+	padding-left: 16pt;
+	flex-wrap: wrap;
+}
+
+.dayss div{
+	width: 40pt;
+	height: 40pt;
+	margin-right: 11pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	text-align: center;
+	padding-top:12px;
+	color:#0B3157;
+	font-family: montserrat, sans-serif;
+	font-size: 16pt;
+	font-weight: 400;
+}
+.dayss div:nth-child(2n){
+	margin-right: 10pt;
+}
+#this{
+	width: 375pt;
+	height: 44pt;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#0B3157;
+	color:#E8E9EB; 
+	display: none; 
+	align-items: center;
+   justify-content:center;
+
+}
+.this_1{
+	width: 103pt;
+	height: 30pt;
+	border: 1pt solid #E8E9EB;
+	border-radius: 30pt;
+    opacity: 0.5;
+    margin-right: 6pt;	
+    cursor: pointer;			
+}
+.this_1>p{
+	margin:0;
+	display: flex;
+	align-items: center;
+   justify-content:center;
+   margin-left: 8pt;
+	font-family: montserrat, sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	width: 86pt;
+	height: 30pt;
+	}
+	b{
+		color:red;
+		font-size: 14pt;
+		display: block;
+		margin:0;
+		padding: 0;
+		margin-top: -14pt;
+		margin-bottom: -4pt;
+
+	}
+	#curr{
+	width: 375pt;
+	height: 40pt;
+	margin-right: auto;
+	margin-left: auto;
+	color:#0B3157;
+	font-family: montserrat, sans-serif;
+	font-size: 14pt;
+	font-weight: 800;
+	padding-left: 16pt;
+	padding-right: 16pt;
+	}
+    #curr_day{
+    padding-top: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 17pt;
+    text-align: left;
+	letter-spacing: -0.3pt;
+    }
+    #practice{
+    	text-transform: uppercase;
+    	margin-right: auto;
+    	margin-left: auto;
+    	background-color:#FFFFFF;
+    	color:#FFFFFF;
+    	width: 375pt;
+    }
+    #practice_today{
+    	margin-bottom: 4pt;
+    	margin-right: auto;
+    	margin-left: auto;
+    	display: flex;
+    	flex-wrap: wrap;
+    	width: 359pt;
+    	height: 60pt;
+    	background-color: #45B4B7;
+    	border-radius: 2pt;
+    }
+    #default{
+    margin:0;
+	width: 260pt;
+	height: 16pt;
+	opacity: 0.5;
+	 font-family: montserrat, sans-serif;
+	font-size: 14pt;
+	font-weight: 500;
+	 letter-spacing: -0.3pt;
+	 	margin-left: 16pt;
+    	margin-top: 12pt;
+    }
+    #time_prac{
+    	  margin-top: 12pt;
+    letter-spacing: -0.3pt;
+    font-family: montserrat, sans-serif;
+	font-size: 14pt;
+	font-weight: 500;
+    text-align: right;
+	width: 67pt;
+	height: 16pt;
+	opacity: 0.5;
+    }
+    #prac_name{
+    margin-top:-15pt;
+    margin-left: 16pt;
+    margin-bottom: 12pt;
+    width: 100%;
+	height: 20pt;
+    letter-spacing: -0.3pt;
+    font-family: montserrat, sans-serif;
+	font-size: 16pt;
+	font-weight: 700;
+    text-align: left;
+ 
+    
+    }
